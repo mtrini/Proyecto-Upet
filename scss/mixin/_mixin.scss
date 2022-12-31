@@ -1,0 +1,20 @@
+
+/* Mixins */
+
+@mixin nav-bar($fondo: white){
+    background-color: $fondo;
+    box-shadow: 1px 1px 10px grey; 
+}
+
+@mixin btn{
+    background-color: $color-principal; 
+    border-radius: 1em; 
+    border-color: $color-principal;
+    color: white; 
+    box-shadow: 1px 1px 5px grey;
+}
+
+@mixin section{
+    background-color: $color-principal;
+    color: white;
+}
